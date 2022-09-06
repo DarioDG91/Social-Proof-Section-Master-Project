@@ -1,0 +1,43 @@
+.reviews {
+  margin-top: 3rem;
+
+  &__card {
+    background-color: $VeryDarkMagenta;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 2.5rem 2rem 1.8rem 2rem;
+    border-radius: 0.5rem;
+
+    .card-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1.5rem;
+
+      img {
+        height: 40px;
+        border-radius: 50px;
+      }
+      .account {
+        .name {
+          color: $White;
+          font-size: 1.09375rem;
+          font-weight: 500;
+        }
+        .status {
+          color: $SoftPink;
+          font-size: 1.09375rem;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    p {
+      color: $White;
+      font-size: 1.0625rem;
+      margin-top: 1.8rem;
+      line-height: 1.3;
+    }
+  }
+}
